@@ -34,5 +34,5 @@ class ContohResource(Resource):
 # Setup resource
 api.add_resource(ContohResource, "/", methods=["GET", "POST"])
 
-app.run(debug=True, port=5006)
+app.run(debug=True)
 
