@@ -32,7 +32,7 @@ class ContohResource(Resource):
         return response;
 
 # Setup resource
-api.add_resource(ContohResource, "/api", methods=["GET", "POST"])
+api.add_resource(ContohResource, "/", methods=["GET", "POST"])
 
 app.run(debug=True, port=5005)
 
